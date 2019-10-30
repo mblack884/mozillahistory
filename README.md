@@ -1,6 +1,6 @@
 Versioned Corpus Text-Processing Tools
 ======
-These scripts were used to reproduce [Thomas et al (2011)'s DiffLDA methodology](https://dl.acm.org/citation.cfm?id=1985467) for the project described in ["A Textual History of Mozilla" (2015)](http://www.digitalhumanities.org/dhq/vol/9/3/000224/000224.html). For topic modeling, I used a custom interface for [MALLET](http://mallet.cs.umass.edu/) built in Java that allowed me to customize the model's output to support DiffLDA calculations. An updated and expanded version of this interface, called ICHASS-LDA, is available here.
+These scripts were used to reproduce [Thomas et al (2011)'s DiffLDA methodology](https://dl.acm.org/citation.cfm?id=1985467) for the project described in ["A Textual History of Mozilla" (2015)](http://www.digitalhumanities.org/dhq/vol/9/3/000224/000224.html). For topic modeling, I used a custom interface for [MALLET](http://mallet.cs.umass.edu/) built in Java that allowed me to customize the model's output to support DiffLDA calculations. An updated and expanded version of this interface, called ICHASS-LDA, is [available here](https://github.com/mblack884/ichass-lda).
 
 Not included here are the experimental and exploratory scripts I wrote to refine and test stopword lists, search for project specific stopwords, or generate the graphs that I refer in the article. Those graphs were generated in R using ggplot2.
 
